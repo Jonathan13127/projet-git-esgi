@@ -1,7 +1,6 @@
 #include <stdio.h>
-
-int main(int argc, char const *argv[])
+#include "supprimer.h"
+void supprimer()
 {
     printf("Suppresion");
-    return 0;
 }
