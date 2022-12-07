@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include "ajouter.h"
 
-int main(int argc, char const *argv[])
+void ajouter()
 {
     printf("Ajout");
     return 0;
