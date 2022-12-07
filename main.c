@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "ajouter.h"
+#include "supprimer.h"
 
 int main(int argc, char *argv[])
 {
@@ -17,9 +19,11 @@ int main(int argc, char *argv[])
         break;
     case 2:
         printf("Ajouter un produit\n");
+        ajouter();
         break;
     case 3:
         printf("Supprimer un produit\n");
+        supprimer();
         break;
     case 4:
         printf("Quitter\n");
